@@ -36,8 +36,11 @@ You'll need your API key and account key (domain that you use SkyPrep on) to get
 Initialize an instance of the API Wrapper like so:
 
 <?php
+
 	require('/path/to/skyprepapi/api.php');
+
 	$acctKey = 'myskyprepdomain.skyprepapp.com';
+
 	$apiKey = 'abcdefgh123456789';
 
 	$api = new SkyPrepApi($acctKey, $apiKey);
