@@ -4,7 +4,7 @@ SkyPrep PHP SDK
 #Welcome
 --------
 
-The SkyPrep PHP SDK is a thin-wrapper on top of the HTTP SDK.
+The SkyPrep PHP SDK is a thin-wrapper on top of the HTTP API.
 All JSON responses are automatically converted to similar PHP objects (associative array or regular indexed arrays).
 
 Each API call is mapped to a corresponding method.
@@ -28,6 +28,8 @@ $api->updateUser([
 
 
 In order to use the SkyPrep PHP SDK Wrapper, simply require 'api.php' in your project and instantiate an instance of the the API Library using your SkyPrep domain and API key.
+
+The PHP SDK Wrapper uses the Guzzle PHP library, so the requirements for Guzzle must be met. If you're having connectivity issues related to Guzzle, please check the Guzzle documentation.
 
 You'll need your API key and account key (domain that you use SkyPrep on) to get started.
 
