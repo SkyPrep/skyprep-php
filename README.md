@@ -52,8 +52,12 @@ The $api variable now has access to all the API calls available.
 Test the connection first by running this:
 
 <?php
+
 	$response = $api->testConnection();
+
 	if ($response['message'] == 'success') {
+
 	 //We are now connected.
+
 	}
 ?>
