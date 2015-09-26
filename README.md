@@ -1,10 +1,11 @@
-# skyprep-php
-SkyPrep PHP SDK
+#SkyPrep PHP SDK
+
+
 
 #Welcome
 --------
 
-The SkyPrep PHP SDK is a thin-wrapper on top of the HTTP API.
+The SkyPrep PHP SDK is a thin-wrapper on top of the HTTP API (https://skyprep.com/api)
 All JSON responses are automatically converted to similar PHP objects (associative array or regular indexed arrays).
 
 Each API call is mapped to a corresponding method.
