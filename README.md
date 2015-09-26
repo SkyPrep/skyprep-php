@@ -6,6 +6,8 @@ All JSON responses are automatically converted to similar PHP objects (associati
 Each API call is mapped to a corresponding method.
 For example, get_all_users is mapped as $api->getAllUsers()
 
+The wrapper takes advantage of some of PHP's metaprogramming concepts. Any new methods that are added to the API in the future should work automatically.
+
 All parameters should be passed into the API as an associate array as well.
 For example, to get user with ID 1000, you can call
 
